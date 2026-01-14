@@ -1,0 +1,20 @@
+# --- Core Scientific Libraries ---
+numpy<2.0.0
+matplotlib>=3.7.0
+Pillow>=9.0.0
+tqdm>=4.64.0
+scipy>=1.7.0
+
+# --- Deep Learning & Metrics ---
+# 指定兼容版本，防止安装卡死
+transformers==4.39.0
+diffusers==0.27.0
+huggingface_hub==0.21.0
+accelerate>=0.27.0
+lpips
+torchmetrics
+
+# --- Other Essential Libraries ---
+safetensors
+insightface
+opencv-python-headless
