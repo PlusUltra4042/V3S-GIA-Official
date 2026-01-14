@@ -36,10 +36,12 @@ To reproduce the results, please download the required pre-trained models and pl
 1.  **Stable Diffusion VAE (Fine-tuned)**
     * **Folder Name:** `sd-vae-ft-mse`
     * *Instruction:* Please ensure the folder contains `config.json` and model weights (e.g., `diffusion_pytorch_model.bin` and `diffusion_pytorch_model.safetensors`).
+    * **Download Link:** [HuggingFace - stabilityai/sd-vae-ft-mse](https://huggingface.co/stabilityai/sd-vae-ft-mse/tree/main)
 
 2.  **ResNet50 MoCo v2**
     * **File Name:** `moco_v2_800ep_pretrain.pth.tar`
-
+    * **Download Link:** [Official Facebook Research Link](https://dl.fbaipublicfiles.com/moco/moco_checkpoints/moco_v2_800ep/moco_v2_800ep_pretrain.pth.tar)
+    * *Instruction:* Please place the downloaded `.pth.tar` file directly in the root directory.
 > **Note:** Due to the file size limits of the anonymous repository, we do not host these large weights directly. Please refer to the supplementary materials for download links.
 
 ---
